@@ -2,7 +2,8 @@
 # -lrt needed for clock_gettime(), Linux only
 #      but only used in check.c
 #  assumes GSL stored in regular paths
-CFLAGS = -Wall -DNDEBUG -O5
+CFLAGS = -Wall -DNDEBUG
+#CFLAGS = -Wall -DNDEBUG -O5
 # CFLAGS = -g
 
 SRC = sxtable.c stable.c digamma.c arms.c sapprox.c sslice.c \

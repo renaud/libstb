@@ -3,7 +3,8 @@
 #      but only used in check.c
 #  assumes GSL stored in regular paths
 CFLAGS = -I../lib/ -Wall -g # O5 -DNDEBUG 
-LDFLAGS = -L../lib/ -lstb -lgsl -lgslcblas -lm -lrt
+#LDFLAGS = -L../lib/ -lstb -lgsl -lgslcblas -lm -lrt
+LDFLAGS = -L../lib/ -lstb -lgsl -lgslcblas -lm
 
 ## MAC OSX versions
 #CFLAGS = -I/opt/local/include -I../lib/ -Wall -O5 -DNDEBUG 
